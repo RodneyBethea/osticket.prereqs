@@ -22,14 +22,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- PHP Manager
-- Rewrite Module
-- PHP 7.3.8
-- MySQL 5.5.62
-- VC_redist.x86.exe
-- Enabled IIS
-- HeidiSQL
-- osTicket v1.15.8
+- Create Resource Group & Virtual Machine in Microsoft Azure
+- Install & Enabled Internet Information Services (IIS) in Windows with CGI checked and download PHP Manager for IIS
+- Install Rewrite Module and Create directory for PHP to unzip files
+- Intsall Both VC file and MySQL
+- Register PHP in IIS and reload to install osTicket v1.15.8
+- Enable all required extensions to continue installation of osTicket
+- nstall HeidiSQL to link MySQL database to osTicket
 
 <h2>Installation Steps</h2>
 
