@@ -52,7 +52,7 @@ After setting up the virtual machine, go to the virtual machine that you created
 <br />
 <h2>Download and Install PHP Manager for IIS, Rewrite Module, and create the directory C:\PHP</h2>
 <p>
-<img src="https://i.imgur.com/Xn8Wfw5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Z6d0LJI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After enabling CGI, install PHP Manager for IIS and the Rewrite Module to your virtual machine. Next you want to create a PHP folder in the windows directory (C:).
@@ -60,7 +60,7 @@ After enabling CGI, install PHP Manager for IIS and the Rewrite Module to your v
 <br />
 <h2>Download and unzip PHP 7.3.8 in PHP folder </h2>
 <p>
-<img src="https://i.imgur.com/U8k2kuk.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VaYXcR6.png" height="90%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Download and extract all PHP files in to the previously created PHP folder under C:.
