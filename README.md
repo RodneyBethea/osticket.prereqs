@@ -47,15 +47,15 @@ First, you must create a Resource Group in Azure and then the virtual machine th
 <img src="https://i.imgur.com/MxPyHES.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After setting the virtual machine, go to the virtual machine that you created and copy the Public IP address to login to a remote desktop connection (use the username and password created, when creating your virtual machine). Once you have logged into the remote desktop connection, go to the control panel, select Programs and Turn on or off Windows features and select the following to enable IIS with CGI on Windows 10. IIS with CGI is required to have the osTicket system installed on your virtual machine.
+After setting up the virtual machine, go to the virtual machine that you created and copy the Public IP address to login to a remote desktop connection (use the username and password created, when creating your virtual machine). Once you have logged into the remote desktop connection, go to the control panel, select Programs and Turn on or off Windows features and select the following to enable IIS with CGI on Windows 10. IIS with CGI is required to have the osTicket system installed on your virtual machine.
 </p>
 <br />
 <h2>Download and Install PHP Manager for IIS, Rewrite Module, and create the directory C:\PHP</h2>
 <p>
-<img src="https://i.imgur.com/7kEgub5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Xn8Wfw5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-After enabling CGI, download and install PHP Manager for IIS and the Rewrite Module to your virtual machine. Next, create a PHP folder in the windows directory (C:).
+After enabling CGI, install PHP Manager for IIS and the Rewrite Module to your virtual machine. Next you want to create a PHP folder in the windows directory (C:).
 </p>
 <br />
 <h2>Download and unzip PHP 7.3.8 in PHP folder </h2>
