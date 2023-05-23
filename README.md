@@ -98,7 +98,7 @@ After restarting the server, Install the osTicket file from the installation fol
 Reopen IIS, Go to sites, default, osTicket and click on "Browse *:80" to open osTicket in a web browser.
 </p>
 <br />
-<h2>Enabled extensions in IIS</h2>
+<h2>Enabled the Extensions in IIS</h2>
 <p>
 <img src="https://i.imgur.com/1a0HvI7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
