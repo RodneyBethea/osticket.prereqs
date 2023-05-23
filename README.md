@@ -66,17 +66,17 @@ After enabling CGI, install PHP Manager for IIS and the Rewrite Module to your v
 Download and extract all PHP files in to the previously created PHP folder under C:.
 </p>
 <br />
-<h2>Download and install VC_redist and MySQL </h2>
+<h2>Install VC_redist & MySQL </h2>
 <p>
-<img src="https://i.imgur.com/EbyvS5F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pAPxeXd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Download and install Microsoft Visual C++ and MYSQL. Ensure that MySQL is downloaded for a "Typical Setup" and Launch Configuration Wizard (after install) is checked. Continue to install as Standard Configuration, select Install as a Windows service and add a password for MySQL .
+Install Microsoft Visual C++ and MYSQL. Ensure that MySQL is downloaded for a "Typical Setup" and Launch Configuration Wizard (after install) is checked. Continue to install as Standard Configuration, select Install as a Windows service and add a password for MySQL.
 </p>
 <br />
 <h2>Open IIS as an Admin and Register PHP in IIS </h2>
 <p>
-<img src="https://i.imgur.com/KdMo93q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WGLIMuv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After installing all of the required files, open IIS and run IIS as an Administrator and register PHP in IIS. Double-click on PHP --> Click on Register PHP new version. Follow the sequence in the C:\ directory, PHP -> php.cgi.exe. Once PHP has been registered make sure to restart the server, by clicking "Restart Server".
@@ -84,7 +84,7 @@ After installing all of the required files, open IIS and run IIS as an Administr
 <br />
 <h2>Reload IIS and Install osTicket </h2>
 <p>
-<img src="https://i.imgur.com/TT8okiI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CCAQ7mN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 After restarting the server, Install the osTicket file from the installation folder. Extract and copy the "upload folder" to c:\inetpub\wwwroot (simply dragging and dropping the file and renaming it "osTicket")
@@ -92,7 +92,7 @@ After restarting the server, Install the osTicket file from the installation fol
 <br />
 <h2>Reload IIS and Browse to *:80 to review what extensions need to be enabled </h2>
 <p>
-<img src="https://imgur.com/LLuHhla.png" height="9%" width="90%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/d5ikW39.png height="9%" width="90%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Reopen IIS, Go to sites, default, osTicket and click on "Browse *:80" to open osTicket in a web browser.
@@ -100,7 +100,7 @@ Reopen IIS, Go to sites, default, osTicket and click on "Browse *:80" to open os
 <br />
 <h2>Enabled extensions in IIS</h2>
 <p>
-<img src="https://imgur.com/2IQ6WR2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/1a0HvI7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Go to IIS, sites, Defualt, osTicket, double click PHP Manager, click on Enable or Disable an extension. Enable the following extensions: php_imap.dll, php_intl.dll, php_opcache.dll and observe the changes in the osTicket site on the web browser
