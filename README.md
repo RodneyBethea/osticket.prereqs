@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Intsall Both VC file and MySQL
 - Register PHP in IIS and reload to install osTicket v1.15.8
 - Enable all required extensions to continue installation of osTicket
-- nstall HeidiSQL to link MySQL database to osTicket
+- Install HeidiSQL to link MySQL database to osTicket
 
 <h2>Installation Steps</h2>
 
